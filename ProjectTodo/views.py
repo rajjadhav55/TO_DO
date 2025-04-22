@@ -200,4 +200,4 @@ def logout_user(request):
 @csrf_exempt
 @require_http_methods(["GET"])
 def test(request):
-    return JsonResponse({"success": True})
+    return JsonResponse({"success": True, "result " : "done"})
