@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+
+*\migrations
+./db.sqlite3
+
+*\__pycache__
+*.cfg
+\lib
